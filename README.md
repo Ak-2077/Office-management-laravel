@@ -41,13 +41,13 @@ DB_DATABASE=your_database_name<br>
 DB_USERNAME=your_db_username<br>
 DB_PASSWORD=your_db_password<br>
 
-3️⃣ Run database migrations:
+3️⃣ Run database migrations:<br>
 php artisan migrate
 
 4️⃣ Run the application:
-php artisan serve
-The application will be available at:
-http://127.0.0.1:8000
+php artisan serve<br>
+The application will be available at:<br>
+http://127.0.0.1:8000<br>
 
 ## Features
 
