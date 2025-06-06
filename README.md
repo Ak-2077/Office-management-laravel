@@ -1,3 +1,36 @@
+<p align="center">
+  <a href="https://laravel.com" target="_blank">
+    <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo">
+  </a>
+</p>
+
+# Office Management System (Laravel)
+
+A simple Office Management web application built with Laravel, featuring Company and Employee CRUD operations with Tailwind CSS and DataTables integration.
+
+---
+
+## Features
+
+- Manage Companies (Create, Read, Update, Delete)
+- Manage Employees with details like position, manager, location
+- DataTables for enhanced table interactions (sorting, searching, pagination)
+- Responsive UI with Tailwind CSS
+
+---
+
+## Installation
+
+```bash
+git clone https://github.com/Ak-2077/Office-management-laravel.git
+cd Office-management-laravel
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate
+php artisan serve
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
