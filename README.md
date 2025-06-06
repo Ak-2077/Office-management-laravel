@@ -4,9 +4,9 @@
   </a>
 </p>
 
- ## Office Management System (Laravel Project)
+ # Office Management System (Laravel Project)
 
-# Project Overview
+## Project Overview
 
 This is a simple Office Management System built using Laravel.
 It demonstrates building a CRUD web application with:
@@ -20,14 +20,14 @@ Employee listing with DataTables integration (search, sort, pagination)
 Responsive UI with Tailwind CSS
 Setup Instructions
 
-# Prerequisites:
+## Prerequisites:
 
 PHP >= 8.x
 Composer
 MySQL (or other database)
 Node.js and npm (for Laravel Mix if needed)
 
-# Installation:
+## Installation:
 
 1️⃣ Install dependencies:
 composer install
@@ -49,7 +49,7 @@ php artisan serve
 The application will be available at:
 http://127.0.0.1:8000
 
-# Features
+## Features
 
 Company CRUD (create, read, update, delete companies)
 Employee CRUD
@@ -61,7 +61,7 @@ GitHub Repository
 
 👉 https://github.com/Ak-2077/Office-management-laravel
 
-# Notes
+## Notes
 
 The external API for State/City was intentionally skipped as per assignment instruction.
 The project is ready to run locally.
