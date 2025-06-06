@@ -11,35 +11,35 @@
 This is a simple Office Management System built using Laravel.
 It demonstrates building a CRUD web application with:
 
-Company management (CRUD)
-Employee management (CRUD)
-Employee assignment to companies
-Optional manager assignment to employees
-Manual input of country, state, city
-Employee listing with DataTables integration (search, sort, pagination)
-Responsive UI with Tailwind CSS
-Setup Instructions
+Company management (CRUD) <br>
+Employee management (CRUD) <br>
+Employee assignment to companies <br>
+Optional manager assignment to employees<br>
+Manual input of country, state, city <br>
+Employee listing with DataTables integration (search, sort, pagination)<br>
+Responsive UI with Tailwind CSS<br>
+Setup Instructions<br>
 
 ## Prerequisites:
 
-PHP >= 8.x
-Composer
-MySQL (or other database)
-Node.js and npm (for Laravel Mix if needed)
+PHP >= 8.x <br>
+Composer<br>
+MySQL (or other database)<br>
+Node.js and npm (for Laravel Mix if needed)<br>
 
 ## Installation:
 
 1️⃣ Install dependencies:
-composer install
-npm install
+composer install<br>
+npm install<br>
 
 2️⃣ Configure environment variables:
-cp .env.example .env
-php artisan key:generate
-Edit .env and set your database credentials:
-DB_DATABASE=your_database_name
-DB_USERNAME=your_db_username
-DB_PASSWORD=your_db_password
+cp .env.example .env<br>
+php artisan key:generate<br>
+Edit .env and set your database credentials:<br>
+DB_DATABASE=your_database_name<br>
+DB_USERNAME=your_db_username<br>
+DB_PASSWORD=your_db_password<br>
 
 3️⃣ Run database migrations:
 php artisan migrate
@@ -51,12 +51,12 @@ http://127.0.0.1:8000
 
 ## Features
 
-Company CRUD (create, read, update, delete companies)
-Employee CRUD
-Manager assignment (optional)
-Country/State/City — static/manual input
-DataTables integration for employee listing (search, sort, paginate)
-Responsive frontend with Tailwind CSS
+Company CRUD (create, read, update, delete companies)<br>
+Employee CRUD<br>
+Manager assignment (optional)<br>
+Country/State/City — static/manual input<br>
+DataTables integration for employee listing (search, sort, paginate)<br>
+Responsive frontend with Tailwind CSS<br>
 GitHub Repository
 
 👉 https://github.com/Ak-2077/Office-management-laravel
